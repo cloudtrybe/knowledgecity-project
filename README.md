@@ -39,7 +39,7 @@ Additionally, you'll need:
 ## **Architecture Diagram**
 ![knowledge-city-arch-diagram](arch_diagram.png)
 ---
-
+![Alt text](image.png)
 ## **Project Structure**
 ```plaintext
 knowledgecity-project/
