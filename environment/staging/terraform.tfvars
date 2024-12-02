@@ -1,7 +1,7 @@
 region  = "me-south-1"
 environment = "staging"
 
-account_id = "806126151129"
+account_id = ""############""
 
 az_count = 2
 vpc_cidr = "172.8.0.0/16"
