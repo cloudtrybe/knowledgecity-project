@@ -87,7 +87,7 @@ Type **yes** when prompted to confirm the deployment.
 
 To delete all resources created by Terraform, run:
 ```bash
-terraform apply -var-file=environment/<env>/terraform.tfvars
+terraform destroy -var-file=environment/<env>/terraform.tfvars
 ```
 
 ## **Customizations**
