@@ -10,14 +10,15 @@ This project sets up the infrastructure for the KnowledgeCity ecosystem on AWS u
 
 ## **Table of Contents**
 1. [Prerequisites](#prerequisites)
-2. [Project Structure](#project-structure)
-3. [Usage](#usage)
+2. [Architecture Diagram](#architecture)
+3. [Project Structure](#project-structure)
+4. [Usage](#usage)
    - [Initialization](#initialization)
    - [Planning](#planning)
    - [Deployment](#deployment)
    - [Cleanup](#cleanup)
-4. [Customizations](#customizations)
-5. [Best Practices](#best-practices)
+5. [Customizations](#customizations)
+6. [Best Practices](#best-practices)
 
 ---
 
@@ -33,6 +34,10 @@ Additionally, you'll need:
 - An existing ACM certificate ARN (for secure CloudFront distribution)
 - Public and private subnet CIDR ranges
 
+---
+
+## **Architecture Diagram**
+![knowledge-city-arch-diagram](arch_diagram.png)
 ---
 
 ## **Project Structure**
