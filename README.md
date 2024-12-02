@@ -45,10 +45,12 @@ knowledgecity-project/
 ├── backend.tf            # Remote backend to  store the Terraform state file (terraform.tfstate)
 ├── modules/              # Reusable modules
 │   ├── cloudfront_s3/    # SPA hosting and CloudFront
-│   ├── ecs_fargate/      # ECS cluster and Fargate services
-│   ├── rds/              # RDS module for MySQL
+│   ├── ecs/              # ECS cluster
+│   ├── mysql/            # RDS module for MySQL
+│   ├── lb/               # LoadBalancer
+│   ├── ecr/              # Container registry
 │   ├── ec2_clickhouse/   # ClickHouse on EC2
-│   ├── networking/       # Networking (VPC, subnets, Route 53, etc.)
+│   ├── vpc/              # Networking (VPC, subnets, Route 53, etc.)
 └── environment/          # Environment-specific configurations
     ├── dev/
     │   └── terraform.tfvars  # Dev environment variables
