@@ -159,7 +159,7 @@ module "ec2_clickhouse" {
   environment   = "${environment}"
   vpc_id        = module.vpc.vpc_id
   subnet_ids    = module.vpc.public_subnet_ids
-  ami_id        = "ami-0abcdef1234567890"
-  instance_type = "t3.medium"
+  ami_id        = var.ami_id
+  instance_type = var.instance_type
   key_name      = "knowledgecity-ssh-key"
 }
